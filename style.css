@@ -1,0 +1,40 @@
+body{
+  margin: 0px;
+  background-color: #AAA;
+}
+
+#divPainel{
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+
+.itemPainel{margin: 5px;}
+
+#divJogo{
+  width: 960px;
+  height: 500px;
+  border: 1px solid #000;
+  background-color: #000;
+}
+
+#divBola{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 240px;
+  left: 475px;
+  background-color: #888;
+}
+
+.barra{
+  width: 20px;
+  height: 140px;
+  position: absolute;
+  top: 180px;
+  background-color: #888;
+}
+
+.esquerda{left: 10px;}
+
+.direita{left: 930px;}
